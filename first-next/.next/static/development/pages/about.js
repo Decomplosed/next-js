@@ -69,7 +69,7 @@ var aboutPage = function aboutPage() {
 
 /***/ }),
 
-/***/ 4:
+/***/ 2:
 /*!***********************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fabout&absolutePagePath=%2FUsers%2FBart%2FDesktop%2FCourses%2FThe_Modern_React_Bootcamp%2Fnext-js-app%2Ffirst-next%2Fpages%2Fabout.js ***!
   \***********************************************************************************************************************************************************************************/
@@ -92,5 +92,5 @@ module.exports = dll_5f137288facb1107b491;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=about.js.map
