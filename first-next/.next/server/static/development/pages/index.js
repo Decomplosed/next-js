@@ -104,20 +104,49 @@ module.exports =
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_Link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/Link */ "next/Link");
+/* harmony import */ var next_Link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_Link__WEBPACK_IMPORTED_MODULE_1__);
 var _jsxFileName = "/Users/Bart/Desktop/Courses/The_Modern_React_Bootcamp/next-js-app/first-next/pages/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
+
 const Index = () => __jsx("div", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 2
+    lineNumber: 4
   },
   __self: undefined
-}, __jsx("h1", {
+}, __jsx(next_Link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  href: "/about",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 3
+    lineNumber: 5
+  },
+  __self: undefined
+}, __jsx("a", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 6
+  },
+  __self: undefined
+}, "About Page")), __jsx(next_Link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  href: "/contact",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 8
+  },
+  __self: undefined
+}, __jsx("a", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 9
+  },
+  __self: undefined
+}, "Contact Page")), __jsx("h1", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11
   },
   __self: undefined
 }, "Our Index Page!!!!"));
@@ -135,6 +164,17 @@ const Index = () => __jsx("div", {
 
 module.exports = __webpack_require__(/*! /Users/Bart/Desktop/Courses/The_Modern_React_Bootcamp/next-js-app/first-next/pages/index.js */"./pages/index.js");
 
+
+/***/ }),
+
+/***/ "next/Link":
+/*!****************************!*\
+  !*** external "next/Link" ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next/Link");
 
 /***/ }),
 
