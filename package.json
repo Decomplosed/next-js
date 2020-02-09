@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Decomplosed/next-js/issues"
   },
-  "homepage": "https://github.com/Decomplosed/next-js#readme"
+  "homepage": "https://github.com/Decomplosed/next-js#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
 }
