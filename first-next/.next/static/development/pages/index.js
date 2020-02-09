@@ -2838,16 +2838,22 @@ var Index = function Index(_ref) {
       lineNumber: 22
     },
     __self: this
-  }, "Index Page!!!"), posts.map(function (post) {
+  }, "Index Page!!!"), __jsx("ul", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, posts.map(function (post) {
     return __jsx("li", {
       key: post.id,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 24
+        lineNumber: 25
       },
       __self: this
     }, post.title);
-  }));
+  })));
 };
 
 Index.getInitialProps = function _callee() {
