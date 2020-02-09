@@ -1,0 +1,1 @@
+{"version":3,"file":"static/webpack/static/development/pages/about.js.0b64d11bce983119bd57.hot-update.js","sources":["webpack:///./pages/about.js"],"sourcesContent":["const aboutPage = () => {\n  return <h1>This is the About Page!!!</h1>\n}\n\nexport default aboutPage\n"],"mappings":";;;;;;;;;;;;;;;;;AAAA;AACA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AACA;AACA;AACA;;;;A","sourceRoot":""}
