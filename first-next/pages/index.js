@@ -1,3 +1,5 @@
+import axios from 'axios'
+
 // import React, { Component } from 'react'
 
 // class Index extends Component {
@@ -14,7 +16,7 @@
 //   }
 // }
 
-const Index = () => {
+const Index = ({ posts }) => {
   return (
     <div>
       <h1>Index Page!!!</h1>
@@ -22,6 +24,11 @@ const Index = () => {
   )
 }
 
-Index.getInitialProps = async () => {}
+Index.getInitialProps = async () => {
+  const res = await axios.get('https://jsonplaceholder.typicode.com/posts')
+  const { data } = res
+
+  return { posts: data }
+}
 
 export default Index

@@ -88,15 +88,15 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/contact.js":
+/*!**************************!*\
+  !*** ./pages/contact.js ***!
+  \**************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -104,77 +104,45 @@ module.exports =
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "axios");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/Bart/Desktop/Courses/The_Modern_React_Bootcamp/next-js-app/first-next/pages/index.js";
+var _jsxFileName = "/Users/Bart/Desktop/Courses/The_Modern_React_Bootcamp/next-js-app/first-next/pages/contact.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
- // import React, { Component } from 'react'
-// class Index extends Component {
-//   constructor(props) {
-//     super(props)
-//   }
-//   render() {
-//     return (
-//       <div>
-//         <h1>Index Page!!!</h1>
-//       </div>
-//     )
-//   }
-// }
 
-const Index = ({
-  posts
-}) => {
+const ContactPage = () => {
   return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 3
     },
     __self: undefined
   }, __jsx("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 4
     },
     __self: undefined
-  }, "Index Page!!!"));
+  }, "ContactPage!!!!"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: undefined
+  }, "This is contact page - do not contact us"));
 };
 
-Index.getInitialProps = async () => {
-  const res = await axios__WEBPACK_IMPORTED_MODULE_1___default.a.get('https://jsonplaceholder.typicode.com/posts');
-  const {
-    data
-  } = res;
-  return {
-    posts: data
-  };
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Index);
+/* harmony default export */ __webpack_exports__["default"] = (ContactPage);
 
 /***/ }),
 
-/***/ 3:
-/*!******************************!*\
-  !*** multi ./pages/index.js ***!
-  \******************************/
+/***/ 5:
+/*!********************************!*\
+  !*** multi ./pages/contact.js ***!
+  \********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/Bart/Desktop/Courses/The_Modern_React_Bootcamp/next-js-app/first-next/pages/index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! /Users/Bart/Desktop/Courses/The_Modern_React_Bootcamp/next-js-app/first-next/pages/contact.js */"./pages/contact.js");
 
-
-/***/ }),
-
-/***/ "axios":
-/*!************************!*\
-  !*** external "axios" ***!
-  \************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("axios");
 
 /***/ }),
 
@@ -190,4 +158,4 @@ module.exports = require("react");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=contact.js.map
