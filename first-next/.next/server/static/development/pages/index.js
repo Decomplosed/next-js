@@ -138,7 +138,14 @@ const Index = ({
       lineNumber: 22
     },
     __self: undefined
-  }, "Index Page!!!"));
+  }, "Index Page!!!"), posts.map(post => __jsx("li", {
+    key: post.id,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: undefined
+  }, post.title)));
 };
 
 Index.getInitialProps = async () => {

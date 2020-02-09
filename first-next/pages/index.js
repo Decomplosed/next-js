@@ -20,6 +20,9 @@ const Index = ({ posts }) => {
   return (
     <div>
       <h1>Index Page!!!</h1>
+      {posts.map(post => (
+        <li key={post.id}>{post.title}</li>
+      ))}
     </div>
   )
 }

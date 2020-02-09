@@ -2838,7 +2838,16 @@ var Index = function Index(_ref) {
       lineNumber: 22
     },
     __self: this
-  }, "Index Page!!!"));
+  }, "Index Page!!!"), posts.map(function (post) {
+    return __jsx("li", {
+      key: post.id,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24
+      },
+      __self: this
+    }, post.title);
+  }));
 };
 
 Index.getInitialProps = function _callee() {
