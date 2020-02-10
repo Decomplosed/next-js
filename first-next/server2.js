@@ -7,6 +7,10 @@ const handle = app.getRequestHandler()
 app.prepare().then(() => {
   const server = express()
 
+  server.get('*', (req, res) => {
+    return handle(req, res)
+  })
+
   server.listen(3000, err => {
     if (err) throw err
     console.log('> Now serving on localhost:3000')
