@@ -156,6 +156,7 @@ const Index = ({
     __self: undefined
   }, __jsx(next_Link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: `/post?id=${post.id}`,
+    as: `/p/${post.id}`,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27
