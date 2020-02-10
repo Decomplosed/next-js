@@ -1,6 +1,20 @@
 import axios from 'axios'
 
-const Post = ({ id, comments }) => <h1>You are looking at post #{id}</h1>
+const Post = ({ id, comments }) => (
+  <div>
+    <h1>Comments for post #{id}</h1>
+    {comments.map(comment => (
+      <Comment {...comment} />
+    ))}
+  </div>
+)
+
+const Comment = ({ email, body }) => (
+  <div>
+    <h5>{email}</h5>
+    <p>{body}</p>
+  </div>
+)
 
 Post.getInitialProps = async ({ query }) => {
   const res = await axios.get(
