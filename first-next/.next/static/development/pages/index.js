@@ -11660,7 +11660,7 @@ var Index = function Index(_ref) {
       },
       __self: this
     }, __jsx(next_Link__WEBPACK_IMPORTED_MODULE_3___default.a, {
-      href: "/post",
+      href: "/post?id=".concat(post.id),
       __source: {
         fileName: _jsxFileName,
         lineNumber: 27

@@ -1,0 +1,1 @@
+{"version":3,"file":"static/webpack/static/development/pages/post.js.b743a49fa957b5b0eadf.hot-update.js","sources":["webpack:///./pages/post.js"],"sourcesContent":["const Post = () => <h1></h1>\n\nexport default Post\n"],"mappings":";;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AACA;AACA;;;;A","sourceRoot":""}
