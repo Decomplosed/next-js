@@ -1,4 +1,5 @@
 import axios from 'axios'
+import Link from 'next/Link'
 
 // import React, { Component } from 'react'
 
@@ -22,7 +23,9 @@ const Index = ({ posts }) => {
       <h1>Index Page!!!</h1>
       <ul>
         {posts.map(post => (
-          <li key={post.id}>{post.title}</li>
+          <li key={post.id}>
+            <Link href='/post'>{post.title}</Link>
+          </li>
         ))}
       </ul>
     </div>
