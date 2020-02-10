@@ -6,4 +6,8 @@ const handle = app.getRequestHandler()
 
 app.prepare().then(() => {
   const server = express()
+
+  server.listen(3000, err => {
+    if (err) throw err
+  })
 })
