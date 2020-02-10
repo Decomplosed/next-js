@@ -170,7 +170,7 @@ const Comment = ({
 Post.getInitialProps = async ({
   query
 }) => {
-  const res = await axios__WEBPACK_IMPORTED_MODULE_1___default.a.get('https://jsonplaceholder.typicode.com/comments?postId=3');
+  const res = await axios__WEBPACK_IMPORTED_MODULE_1___default.a.get(`https://jsonplaceholder.typicode.com/comments?postId=${query.id}`);
   const {
     data
   } = res;

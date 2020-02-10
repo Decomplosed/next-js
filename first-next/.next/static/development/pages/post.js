@@ -4645,7 +4645,7 @@ Post.getInitialProps = function _callee(_ref3) {
         case 0:
           query = _ref3.query;
           _context.next = 3;
-          return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_6___default.a.awrap(axios__WEBPACK_IMPORTED_MODULE_10___default.a.get('https://jsonplaceholder.typicode.com/comments?postId=3'));
+          return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_6___default.a.awrap(axios__WEBPACK_IMPORTED_MODULE_10___default.a.get("https://jsonplaceholder.typicode.com/comments?postId=".concat(query.id)));
 
         case 3:
           res = _context.sent;
