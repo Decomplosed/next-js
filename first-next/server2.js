@@ -8,7 +8,8 @@ app.prepare().then(() => {
   const server = express()
 
   server.get('/p/:id', (req, res) => {
-    app.render(req, res, '/about')
+    req.params.id
+    app.render(req, res, '/post', { id: 9 })
   })
 
   server.get('*', (req, res) => {
