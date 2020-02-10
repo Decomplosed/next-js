@@ -104,20 +104,19 @@ module.exports =
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/router */ "next/router");
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_1__);
 var _jsxFileName = "/Users/Bart/Desktop/Courses/The_Modern_React_Bootcamp/next-js-app/first-next/pages/post.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-
-const Post = props => __jsx("h1", {
+const Post = ({
+  id
+}) => __jsx("h1", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 3
+    lineNumber: 2
   },
   __self: undefined
-}, "You are looking at post #");
+}, "You are looking at post #", id);
 
 Post.getInitialProps = async ({
   query
@@ -125,7 +124,7 @@ Post.getInitialProps = async ({
   return query;
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Object(next_router__WEBPACK_IMPORTED_MODULE_1__["withRouter"])(Post));
+/* harmony default export */ __webpack_exports__["default"] = (Post);
 
 /***/ }),
 
@@ -138,17 +137,6 @@ Post.getInitialProps = async ({
 
 module.exports = __webpack_require__(/*! /Users/Bart/Desktop/Courses/The_Modern_React_Bootcamp/next-js-app/first-next/pages/post.js */"./pages/post.js");
 
-
-/***/ }),
-
-/***/ "next/router":
-/*!******************************!*\
-  !*** external "next/router" ***!
-  \******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("next/router");
 
 /***/ }),
 
