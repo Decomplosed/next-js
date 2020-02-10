@@ -110,8 +110,7 @@ var _jsxFileName = "/Users/Bart/Desktop/Courses/The_Modern_React_Bootcamp/next-j
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-
-const Post = ({
+const Post = Object(next_router__WEBPACK_IMPORTED_MODULE_1__["withRouter"])(({
   id
 }) => __jsx("h1", {
   __source: {
@@ -119,7 +118,7 @@ const Post = ({
     lineNumber: 3
   },
   __self: undefined
-}, "You are looking at post #", id);
+}, "You are looking at post #", id));
 
 Post.getInitialProps = async ({
   query

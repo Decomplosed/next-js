@@ -7975,8 +7975,7 @@ var _jsxFileName = "/Users/Bart/Desktop/Courses/The_Modern_React_Bootcamp/next-j
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
-
-var Post = function Post(_ref) {
+var Post = Object(next_router__WEBPACK_IMPORTED_MODULE_2__["withRouter"])(function (_ref) {
   var id = _ref.id;
   return __jsx("h1", {
     __source: {
@@ -7985,7 +7984,7 @@ var Post = function Post(_ref) {
     },
     __self: this
   }, "You are looking at post #", id);
-};
+});
 
 Post.getInitialProps = function _callee(_ref2) {
   var query;
