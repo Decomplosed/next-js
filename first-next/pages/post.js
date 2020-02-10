@@ -1,3 +1,4 @@
+import axios from 'axios'
 
 const Post = ({ id }) => <h1>You are looking at post #{id}</h1>
 
