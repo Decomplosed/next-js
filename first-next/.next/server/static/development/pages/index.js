@@ -161,7 +161,13 @@ const Index = ({
       lineNumber: 27
     },
     __self: undefined
-  }, post.title)))));
+  }, __jsx("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: undefined
+  }, post.title))))));
 };
 
 Index.getInitialProps = async () => {

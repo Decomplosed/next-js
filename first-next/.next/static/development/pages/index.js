@@ -11666,7 +11666,13 @@ var Index = function Index(_ref) {
         lineNumber: 27
       },
       __self: this
-    }, post.title));
+    }, __jsx("a", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 28
+      },
+      __self: this
+    }, post.title)));
   })));
 };
 

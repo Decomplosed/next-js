@@ -108,13 +108,21 @@ var _jsxFileName = "/Users/Bart/Desktop/Courses/The_Modern_React_Bootcamp/next-j
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-const Post = () => __jsx("h1", {
+const Post = ({
+  id
+}) => __jsx("h1", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 1
   },
   __self: undefined
-}, "You are looking at post");
+}, "You are looking at post #", id);
+
+Post.getInitialProps = async ({
+  query
+}) => {
+  return query;
+};
 
 /* harmony default export */ __webpack_exports__["default"] = (Post);
 
