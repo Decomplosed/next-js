@@ -136,6 +136,7 @@ const Post = ({
   },
   __self: undefined
 }, "Comments for post #", id), comments.map(comment => __jsx(Comment, _extends({}, comment, {
+  key: comment.id,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 7

@@ -4603,6 +4603,7 @@ var Post = function Post(_ref) {
     __self: this
   }, "Comments for post #", id), comments.map(function (comment) {
     return __jsx(Comment, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_8__["default"])({}, comment, {
+      key: comment.id,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 7

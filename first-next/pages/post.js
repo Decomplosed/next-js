@@ -4,7 +4,7 @@ const Post = ({ id, comments }) => (
   <div>
     <h1>Comments for post #{id}</h1>
     {comments.map(comment => (
-      <Comment {...comment} />
+      <Comment {...comment} key={comment.id} />
     ))}
   </div>
 )
