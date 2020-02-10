@@ -110,15 +110,14 @@ var _jsxFileName = "/Users/Bart/Desktop/Courses/The_Modern_React_Bootcamp/next-j
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-const Post = Object(next_router__WEBPACK_IMPORTED_MODULE_1__["withRouter"])(({
-  id
-}) => __jsx("h1", {
+
+const Post = props => __jsx("h1", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 3
   },
   __self: undefined
-}, "You are looking at post #", id));
+}, "You are looking at post #");
 
 Post.getInitialProps = async ({
   query
@@ -126,7 +125,7 @@ Post.getInitialProps = async ({
   return query;
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Post);
+/* harmony default export */ __webpack_exports__["default"] = (Object(next_router__WEBPACK_IMPORTED_MODULE_1__["withRouter"])(Post));
 
 /***/ }),
 

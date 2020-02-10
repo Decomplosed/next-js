@@ -7975,24 +7975,24 @@ var _jsxFileName = "/Users/Bart/Desktop/Courses/The_Modern_React_Bootcamp/next-j
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
-var Post = Object(next_router__WEBPACK_IMPORTED_MODULE_2__["withRouter"])(function (_ref) {
-  var id = _ref.id;
+
+var Post = function Post(props) {
   return __jsx("h1", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 3
     },
     __self: this
-  }, "You are looking at post #", id);
-});
+  }, "You are looking at post #");
+};
 
-Post.getInitialProps = function _callee(_ref2) {
+Post.getInitialProps = function _callee(_ref) {
   var query;
   return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.async(function _callee$(_context) {
     while (1) {
       switch (_context.prev = _context.next) {
         case 0:
-          query = _ref2.query;
+          query = _ref.query;
           return _context.abrupt("return", query);
 
         case 2:
@@ -8003,7 +8003,7 @@ Post.getInitialProps = function _callee(_ref2) {
   });
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Post);
+/* harmony default export */ __webpack_exports__["default"] = (Object(next_router__WEBPACK_IMPORTED_MODULE_2__["withRouter"])(Post));
 
 /***/ }),
 
