@@ -9,5 +9,6 @@ app.prepare().then(() => {
 
   server.listen(3000, err => {
     if (err) throw err
+    console.log('> Now serving on localhost:3000')
   })
 })
